@@ -1,0 +1,28 @@
+.principal-title {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#hero {
+    height: 600px;
+    background-image: url("https://wallpaperaccess.com/full/5988326.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#hero .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
