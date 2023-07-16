@@ -62,12 +62,12 @@
             <div class="container ">
                 <div class="row">
                     <div class="row col-12 text-center pt-5">
-                        <h1 class="h1 principal-title text-white">Home
+                        <h1 class="h1 principal-title text-black">Home
                         </h1>
                     </div>
                     <div class="row mt-5 md-5">
                         <div class="col-12 col-md-8 offset-md-2 te">
-                            <p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <p class="text-center text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Porro nobis assumenda a est non placeat dignissimos maiores quam maxime aliquam enim,
                                 rem ex
                                 qui neque quos quisquam praesentium veritatis delectus.</p>
@@ -84,12 +84,12 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-3 mt-3">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="{{$recipes['photo']}}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">{{$recipes['name']}}</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk
                             of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="{{route('homepage')}}" class="btn btn-primary">Go back</a>
                     </div>
                 </div>
             </div>

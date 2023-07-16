@@ -6,7 +6,7 @@
 
 #hero {
     height: 600px;
-    background-image: url("https://wallpaperaccess.com/full/5988326.png");
+    background-image: url("https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148695092.jpg");
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,4 +25,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#hero .blur {
+    background-color: rgba(red, green, blue, alpha);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
 }
