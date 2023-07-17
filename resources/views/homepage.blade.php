@@ -90,7 +90,8 @@
                             <h5 class="card-title">{{$recipe['name']}}</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="{{route('recipes-details', ['id' => $recipe['id']])}}" class="btn btn-primary">Go somewhere</a>
+                            <a href="{{route('recipes-details', ['id' => $recipe['id']])}}" class="btn btn-primary">details</a>
+                            <a href="{{route('category', ['category' => $recipe['category']])}}" class="btn btn-primary mt-1">category</a>
                         </div>
                     </div>
                 </div>
